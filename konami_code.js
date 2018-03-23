@@ -8,7 +8,10 @@ function init() {
   if (key === code[index]) {
     index++;
     if (index === code.length) {
-      alert("Congratulation, the konami code has been submitted")
+      alert("Congratulation, the konami code has been submitted");
+      index = 0;
     }
+  } else {
+    index = 0;
   }
 }
