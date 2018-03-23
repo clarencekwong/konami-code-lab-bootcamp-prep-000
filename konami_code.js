@@ -16,3 +16,4 @@ function init(e) {
   }
 }
 
+const divs = document.
